@@ -6,7 +6,22 @@ You don't need an idea yet. Claude will help you find one.
 
 ## My project
 
-Nothing yet! Claude will help you describe your project here.
+**Crew Night Out** is a Java app that helps a friend group plan nights out.
+
+- Each friend sets up a profile: what they like (food, bars, activities, live music, night out spots), their vibe and their budget.
+- Enter a budget and get the places with the highest average fun that fit it.
+- See which friends would most want to come along.
+- After the night, everyone rates how fun it was (1-10). Ratings make future picks smarter.
+
+Places, friends and ratings are saved in `places.csv`, `friends.csv` and `ratings.csv`.
+Edit `places.csv` to add your own favorite spots.
+
+To run it (from the project folder):
+
+```
+javac -d out src/*.java
+java -cp out CrewNightOut
+```
 
 ## Before you start
 
