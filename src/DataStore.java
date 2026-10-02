@@ -31,7 +31,7 @@ public class DataStore {
 
     void saveFriends() throws IOException {
         List<String> lines = new ArrayList<>();
-        lines.add("name,types,vibes,budget,likedPlaces");
+        lines.add("name,age,types,vibes,budget,likedPlaces");
         for (Friend f : friends) {
             lines.add(f.toCsv());
         }
